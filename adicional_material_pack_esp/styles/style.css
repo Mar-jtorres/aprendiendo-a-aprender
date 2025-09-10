@@ -114,7 +114,7 @@
 .two-columns__brief {
     line-height: 1.2;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: bold;
     width: 175px;
     color: #2F80ED;
 
@@ -159,7 +159,7 @@
     padding: 0;
     padding-top: 20px;
     padding-bottom: 60px;
-    color: #000000;
+    color: #2F80ED;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +237,8 @@ margin: 0;
     margin-left: auto;
     margin-right: auto;
     z-index: 3;
+    line-height: 51px;
+    font-size: 36px;
   }
   
   .feynman__link {
@@ -247,10 +249,15 @@ margin: 0;
     font-weight: normal;
     text-decoration: none;
     top: 50%;
-   
-   
+    color: #2F80ED;
+    transition: 0.3s;
   }
-  
+
+  .feynman__link:hover{
+        color: rgb(182, 15, 182);
+    }
+   
+   
   .feynman__image {
     height: 637px;
     width: 867px;
